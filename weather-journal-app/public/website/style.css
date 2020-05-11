@@ -1,0 +1,156 @@
+/* 1em reference */
+body {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #333333;
+}
+
+.wrapper {
+	background-color: #2669ff;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 3em;
+    justify-content: center;
+    grid-gap: 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#entryHolder {
+	background-color: #2669ff;
+}
+
+.headline {
+    font-size: 3em;
+}
+
+.subtitle {
+    font-size: 2em;
+}
+
+.subtitle-secondary {
+    font-size: 1.75em;
+}
+
+.input-group {
+    margin-bottom: 2em;
+}
+
+.input-item {
+    width: 100%;
+    padding-top: 0.75em;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    background: transparent;
+    outline: none !important;
+    border: none;
+    border-radius: 0 !important;
+    -webkit-appearance: none;
+    border-bottom: 1px solid #979797;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-weight: 400;
+    color: #575757;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.button {
+	border-radius: 12px;
+    font-size: 1.5em;
+    background-color: #575757;
+    font-family: 'Owsald', sans-serif;
+    color: #FFF;
+    padding: 0.5em 1.25em;
+    cursor: pointer;
+}
+
+#feedback {
+    padding: 1em;
+    border-radius: 0.25em;
+    transition: all 0.5 ease-in-out;
+}
+
+.error {
+    border: 1px solid #F00;
+    color: #F00;
+}
+
+.success {
+    border: 1px solid #018601;
+    color: #018601;
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+textarea{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.entry-group {
+    display: flex;
+    flex-wrap: wrap;
+    color: #0000d3;
+}
+
+.entry-item {
+    padding: 0.25em 0.5em;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #b1b1b1; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #b1b1b1;  
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #b1b1b1; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+
+/* Apply to large devices */
+@media (min-width: 767px) {
+    .wrapper {
+        padding: 2em calc((100vw - 700px)/2);
+    }
+}
+
+/* Reduce the lateral padding on small viewports */
+@media (max-width: 420px){
+    .wrapper{
+        padding: 2em 0.5em
+    }
+
+    .headline {
+        font-size: 2.5em;
+    }
+}
