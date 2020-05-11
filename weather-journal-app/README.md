@@ -14,7 +14,6 @@ Once the api key is obtained, delete my .env file and create a .env file in the 
 
 ```
 OWM_APIKEY=your-key-goes-here
-example - OWM_APIKEY=7495cd95a6fc985a290011d9d43e5454
 ```
 Go to the Project Root and press = npm install which install everything
 
