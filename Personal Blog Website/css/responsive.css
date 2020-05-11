@@ -1,0 +1,91 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .blogcontentimage {
+        width: 300px;
+        height: 185px;
+       
+    }
+    
+    .column1 {
+        width: 400px;
+        height: 185px;
+    }
+    
+    .column2 {
+        margin-left: 0px;
+        width: 600px;
+        height: 185px;
+    }
+    
+    .column3 {
+        margin-left: 0px;
+        width: 600px;
+        height: 185px;
+    }
+    
+    .column4 {
+        margin-top: 170px;
+        margin-left: 0px;
+        width: 400px;
+        height: 185px;
+    }
+    
+    .salesforcecommunityimage {
+        margin-top: 252px;
+        max-height: -webkit-fill-available;
+    }
+    
+    .communityimage {
+        width: 50% !important ;
+    }
+    
+    .content {
+        margin-top: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+    .blogcontentimage {
+        width: 500px;
+        height: 185px;
+       
+    }
+    
+    .column1 {
+        width: 400px;
+        height: 185px;
+    }
+    
+    .column2 {
+        margin-left: 0px;
+        width: 600px;
+        height: 185px;
+    }
+    
+    .column3 {
+        margin-left: 0px;
+        width: 600px;
+        height: 185px;
+    }
+    
+    .column4 {
+        margin-top: 170px;
+        margin-left: 0px;
+        width: 400px;
+        height: 185px;
+    }
+    
+    .salesforcecommunityimage {
+        margin-top: 252px;
+        max-height: -webkit-fill-available;
+    }
+    
+    .communityimage {
+        width: 50% !important ;
+    }
+    
+    .content {
+        margin-top: 100%;
+    }
+}
